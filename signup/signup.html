@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Signup</title>
+</head>
+<body>  
+    <div class="wrapper">
+        <div class="left">
+            <h1><i>Signup Form</i></h1>   
+            <input type="text" name="username" placeholder="Username" onchange="change(this.name,this.value)"/>
+            <input type="email" name="email" placeholder="email" onchange="change(this.name,this.value)"/>
+            <input type="password" name="password" placeholder="password" onchange="change(this.name,this.value)"/>
+            <button type="submit" name="submit" id="subbtn">Submit</button> 
+        </div>
+            <div class="right">
+            </div>
+    </div>
+</body>
+<script src=signup.js></script>
+</html>
